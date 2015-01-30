@@ -1,0 +1,90 @@
+body {
+	background-color: black;
+	background-image: url('http://www.magic4walls.com/wp-content/uploads/2013/11/sunshine-nature-winter-snow-photo-wallpaper-1920x1200.jpg');
+	font-family: Garamond;
+}
+
+.CV {
+	width: 80%;
+	background: white;
+	margin: auto;
+}
+
+.header {
+	padding: 25px 35px;
+	width: auto;
+	margin-top: -10px;
+	height: 130px;
+	margin-bottom: 10px;
+	background-color: white;
+	border-bottom: 2px solid #C299EA;
+}
+
+.picture {
+	width: 12.5%;
+	float: left;
+	margin-right: 30px;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.picture img {
+	width: 110px;
+	height: 110px;
+	border-radius: 50px;
+}
+
+.name {
+	float: left;
+	margin-left: 15px;
+	padding-top: 4px;
+	font-size: 23px;
+	vertical-align: center;
+	color: black;
+}
+
+.contact {
+	float:right;
+	margin-right: 15px;
+	padding-top: 30px;
+	font-size: 16px;
+	color: black;
+}
+
+.contact ul li a:hover{
+	color: #C299EA;
+}
+
+.contact li {
+	list-style-type: none;
+}
+
+.main {
+	position: relative;
+	clear: both;
+	padding-top: 10px;
+	width: 97.5%;
+}
+
+.title {
+	float: left;
+	margin-left: 20px;
+	width: 25%;
+}
+
+.content {
+	float: right;
+	width: 70%;
+}
+
+.footer {
+	position: relative;
+	height: 50px;
+	clear: both;
+	font-size: 14px;
+	text-align: center;
+	color: black;
+	background-color: white;
+	border-top: 2px solid #C299EA;
+}
