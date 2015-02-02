@@ -1,7 +1,7 @@
 body {
 	background-color: black;
-	background-image: url('http://www.magic4walls.com/wp-content/uploads/2013/11/sunshine-nature-winter-snow-photo-wallpaper-1920x1200.jpg');
-	font-family: Garamond;
+	background-image: url('http://tinyurl.com/mgouou4');
+	font-family: Georgia;
 }
 
 .CV {
@@ -14,10 +14,11 @@ body {
 	padding: 25px 35px;
 	width: auto;
 	margin-top: -10px;
-	height: 130px;
+	height: 100px;
 	margin-bottom: 10px;
 	background-color: white;
-	border-bottom: 2px solid #C299EA;
+	border-bottom: 2px solid #7A00A3;
+	/*border-bottom: 2px solid #FFCC66;*/
 }
 
 .picture {
@@ -30,61 +31,138 @@ body {
 }
 
 .picture img {
-	width: 110px;
-	height: 110px;
+	width: 90px;
+	height: 90px;
 	border-radius: 50px;
 }
 
 .name {
 	float: left;
-	margin-left: 15px;
-	padding-top: 4px;
-	font-size: 23px;
-	vertical-align: center;
-	color: black;
+	display: inline-block;
+	margin-top: 7px;
+	color: 	#7A00A3;
+	font-size: 1em;
+	letter-spacing: 3px;
+	text-transform: uppercase;
 }
 
 .contact {
-	float:right;
-	margin-right: 15px;
-	padding-top: 30px;
-	font-size: 16px;
-	color: black;
+	color: #808284;
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 5px;
+	font-size: 0.8em;
+	letter-spacing: 1px;
+	line-height: .9em;
+	text-transform: uppercase;
 }
 
-.contact ul li a:hover{
+.contact a:link, a:visited {
+	text-decoration: none;
+	color: #808284;
+}
+
+.contact a:hover{
 	color: #C299EA;
+	font-weight: bold;
 }
 
-.contact li {
-	list-style-type: none;
+.contact img {
+	margin-bottom: -0.2em;
 }
 
 .main {
 	position: relative;
 	clear: both;
-	padding-top: 10px;
 	width: 97.5%;
 }
 
-.title {
+.break {
+	position: relative;
+	clear: both;
+	width: 97.5%;
+	border-bottom: 1px dashed #7A00A3;
+}
+
+.clear { clear: both; }
+
+h2 {
 	float: left;
-	margin-left: 20px;
 	width: 25%;
+	padding-left: 20px;
+	color: #7A00A3;
+	font-size: 1.1em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	/*border-right: 1px solid #ccc;*/
 }
 
 .content {
 	float: right;
+	position: relative;
 	width: 70%;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+	/*border-bottom: 1px solid #ccc;*/
+}
+
+.contentlast {
+	float: right;
+	position: relative;
+	width: 70%;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+}
+
+.content h3 {
+	color: #9900CC;
+	font-size: 0.95em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.content .location {
+	color: #58585B;
+	display: inline;
+	font-size: 0.8em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.content h4 {
+	display: inline;
+	
+}
+
+.content .dates {
+	text-align: right;
+	text-transform: none;
+	font-size: 90%;
+}
+
+.content p {
+	display: inline;
 }
 
 .footer {
 	position: relative;
 	height: 50px;
 	clear: both;
-	font-size: 14px;
+	font-size: 0.8em;
+	padding-top: 7px;
 	text-align: center;
-	color: black;
+	color: #808284;
+	text-transform: uppercase;
 	background-color: white;
-	border-top: 2px solid #C299EA;
+	border-top: 2px solid #7A00A3;
+}
+
+.footer a:link, a:visited {
+	text-decoration: none;
+	color: #808284;
+}
+
+.footer a:hover{
+	color: #C299EA;
+	font-weight: bold;
 }
