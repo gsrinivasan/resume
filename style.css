@@ -1,7 +1,7 @@
 body {
-	background-color: black;
-	background-image: url('http://tinyurl.com/mgouou4');
-	font-family: Georgia;
+	background-color: white;
+	/*background-image: url('http://tinyurl.com/mgouou4');*/
+	font-family: Gudea;
 }
 
 .CV {
@@ -21,6 +21,7 @@ body {
 	/*border-bottom: 2px solid #FFCC66;*/
 }
 
+/*
 .picture {
 	width: 12.5%;
 	float: left;
@@ -35,17 +36,44 @@ body {
 	height: 90px;
 	border-radius: 50px;
 }
+*/
 
 .name {
-	float: left;
-	display: inline-block;
+	display: inline;
 	margin-top: 7px;
 	color: 	#7A00A3;
-	font-size: 1em;
+	font-size: 0.8em;
 	letter-spacing: 3px;
 	text-transform: uppercase;
 }
 
+.contact-info {
+	color: #808284;
+  	display: inline;
+  	font-size: .7em;
+  	letter-spacing: 1px;
+  	line-height: .9em;
+  	text-transform: uppercase;
+}
+
+.links {
+	color: #58585B;
+  	display: inline;
+  	text-decoration: none;
+}
+
+.links:hover {
+  color: #DF723E;
+  font-style: bold;
+}
+
+.links img {
+  margin-bottom: -.2em;
+  padding-right: .3em;
+  padding-left: .3em;
+}
+
+/*
 .contact {
 	color: #808284;
 	display: inline-block;
@@ -70,6 +98,7 @@ body {
 .contact img {
 	margin-bottom: -0.2em;
 }
+*/
 
 .main {
 	position: relative;
@@ -81,7 +110,7 @@ body {
 	position: relative;
 	clear: both;
 	width: 97.5%;
-	border-bottom: 1px dashed #7A00A3;
+	/*border-bottom: 1px dashed #7A00A3;*/
 }
 
 .clear { clear: both; }
@@ -103,15 +132,7 @@ h2 {
 	width: 70%;
 	margin-bottom: 1em;
 	padding-bottom: 1em;
-	/*border-bottom: 1px solid #ccc;*/
-}
-
-.contentlast {
-	float: right;
-	position: relative;
-	width: 70%;
-	margin-bottom: 1em;
-	padding-bottom: 1em;
+	border-bottom: 1px solid #ccc;
 }
 
 .content h3 {
@@ -144,6 +165,7 @@ h2 {
 	display: inline;
 }
 
+/*
 .footer {
 	position: relative;
 	height: 50px;
@@ -166,3 +188,4 @@ h2 {
 	color: #C299EA;
 	font-weight: bold;
 }
+*/
