@@ -23,7 +23,7 @@ body {
 	float: left;
 	margin-right: 30px;
 	padding-top: 10px;
-	padding-left: 10px;
+	padding-left: 20px;
 	padding-bottom: 10px;
 }
 
@@ -37,32 +37,37 @@ body {
 	position: relative;
 	display: inline-block;
 	color: #009688;
-	font-size: 0.8em;
+	font-size: 1em;
 	letter-spacing: 4px;
 	text-transform: uppercase;
-	padding-top: 23px;
+	padding: 15px 0 0 15px;
+	text-align: center;
 }
 
 .contact-info {
 	color: #808284;
 	position: relative;
-  	display: inline;
+	float: right;
+  	display: inline-block;
+  	padding: 12px 20px 0 0;
   	font-size: 0.8em;
   	letter-spacing: 1px;
   	line-height: .9em;
   	text-transform: uppercase;
 }
 
-.details {
-	color: #58585B;
-  	display: inline;
+.contact-info ul {
+	list-style-type: none;
+}
+
+.contact-info ul li a:visited, a:link {
+	color: #808284;
   	text-decoration: none;
 }
 
-.details:hover {
- 	color: #660033;
+.contact-info ul li a:hover {
+	color: #660033;
  	font-style: bold;
- 	font-size: 1.1em;
 }
 
 .main {
@@ -102,6 +107,7 @@ h2 {
 	font-size: 1em;
 	letter-spacing: 1px;
 	text-transform: uppercase;
+	margin-bottom: 0px;
 }
 
 .content .location {
@@ -110,6 +116,10 @@ h2 {
 	font-size: 0.9em;
 	letter-spacing: 1px;
 	text-transform: uppercase;
+}
+
+.content p {
+	margin: 0;
 }
 
 .content h4 {
@@ -123,11 +133,8 @@ h2 {
 	font-size: 90%;
 }
 
-.content p {
-	position: relative;
-	display: inline;
-	margin-top: 0px;
-	margin-bottom: 0px;
+.content ul {
+	margin: 3px 0;
 }
 
 .content .skills {
