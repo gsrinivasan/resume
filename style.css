@@ -10,6 +10,7 @@ body {
 }
 
 .header {
+	z-index: 1;
 	padding-bottom: 17px;
 	width: auto;
 	height: 100px;
@@ -21,10 +22,7 @@ body {
 .picture {
 	width: 12.5%;
 	float: left;
-	margin-right: 30px;
-	padding-top: 10px;
-	padding-left: 20px;
-	padding-bottom: 10px;
+	padding: 10px 20px 20px 20px;
 }
 
 .picture img {
@@ -34,7 +32,6 @@ body {
 }
 
 .name {
-	position: relative;
 	display: inline-block;
 	color: #009688;
 	font-size: 1em;
@@ -49,10 +46,10 @@ body {
 	position: relative;
 	float: right;
   	display: inline-block;
-  	padding: 12px 20px 0 0;
+  	padding: 12px 25px 0 0;
   	font-size: 0.8em;
   	letter-spacing: 1px;
-  	line-height: .9em;
+  	line-height: 0.9em;
   	text-transform: uppercase;
 }
 
@@ -66,8 +63,8 @@ body {
 }
 
 .contact-info ul li a:hover {
-	color: #660033;
- 	font-style: bold;
+	color: #CC0066;
+	font-weight: bold;
 }
 
 .main {
@@ -163,7 +160,6 @@ h2 {
 }
 
 .footer a:hover{
-	color: #660033;
+	color: #CC0066;
 	font-weight: bold;
-	font-size: 1.1em;
 }
