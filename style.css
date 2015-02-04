@@ -1,6 +1,6 @@
 body {
 	background-color: white;
-	font-family: Gudea, serif;
+	font-family: Gudea;
 }
 
 .CV {
@@ -42,7 +42,7 @@ body {
 }
 
 .contact-info {
-	color: #808284;
+	color: #4C4C4C;
 	position: relative;
 	float: right;
   	display: inline-block;
@@ -58,7 +58,7 @@ body {
 }
 
 .contact-info ul li a:visited, a:link {
-	color: #808284;
+	color: #4C4C4C;
   	text-decoration: none;
 }
 
@@ -131,7 +131,7 @@ h2 {
 }
 
 .content ul {
-	margin: 3px 0;
+	margin: 5px 0;
 }
 
 .content .skills {
