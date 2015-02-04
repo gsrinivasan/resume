@@ -1,6 +1,7 @@
 body {
 	background-color: white;
-	font-family: Gudea, serif;
+	/*background-image: url('http://tinyurl.com/mgouou4');*/
+	font-family: Gudea;
 }
 
 .CV {
@@ -10,12 +11,14 @@ body {
 }
 
 .header {
-	padding-bottom: 17px;
+	padding-bottom: 10px;
 	width: auto;
-	height: 100px;
+	margin-top: -10px;
+	height: 50px;
 	margin-bottom: 10px;
 	background-color: white;
-	border-bottom: 2px solid #009688;
+	border-bottom: 2px solid #DF723E;
+	/*border-bottom: 2px solid #FFCC66;*/
 }
 
 .picture {
@@ -36,34 +39,65 @@ body {
 .name {
 	position: relative;
 	display: inline-block;
-	color: #009688;
-	font-size: 0.8em;
+	color: 	#DF723E;
+	font-size: 0.7em;
 	letter-spacing: 4px;
 	text-transform: uppercase;
-	padding-top: 23px;
 }
 
 .contact-info {
 	color: #808284;
 	position: relative;
-  	display: inline;
-  	font-size: 0.8em;
+  	display: inline-block;
+  	font-size: 0.7em;
   	letter-spacing: 1px;
   	line-height: .9em;
   	text-transform: uppercase;
 }
 
-.details {
+.links {
 	color: #58585B;
-  	display: inline;
+  	display: inline-block;
   	text-decoration: none;
 }
 
-.details:hover {
- 	color: #660033;
- 	font-style: bold;
- 	font-size: 1.1em;
+.links:hover {
+  color: #DF723E;
+  font-style: bold;
 }
+
+/*
+.links img {
+  margin-bottom: -.2em;
+  padding-right: .3em;
+  padding-left: .3em;
+}
+
+.contact {
+	color: #808284;
+	display: inline-block;
+	margin-left: 50px;
+	margin-top: 5px;
+	font-size: 0.8em;
+	letter-spacing: 1px;
+	line-height: .9em;
+	text-transform: uppercase;
+}
+
+.contact a:link, a:visited {
+	text-decoration: none;
+	color: #808284;
+}
+
+.contact a:hover{
+	color: #C299EA;
+	font-weight: bold;
+}
+
+.contact img {
+	margin-bottom: -0.2em;
+}
+*/
 
 .main {
 	position: relative;
@@ -75,31 +109,34 @@ body {
 	position: relative;
 	clear: both;
 	width: 97.5%;
+	/*border-bottom: 1px dashed #7A00A3;*/
 }
+
+.clear { clear: both; }
 
 h2 {
 	float: left;
 	width: 25%;
 	padding-left: 20px;
-	color: #009688;
-	/*color: #7A00A3;*/
-	font-size: 1.2em;
-	letter-spacing: 2px;
+	color: #7A00A3;
+	font-size: 1.1em;
+	letter-spacing: 1px;
 	text-transform: uppercase;
+	/*border-right: 1px solid #ccc;*/
 }
 
 .content {
 	float: right;
 	position: relative;
 	width: 70%;
-	margin: 0 0 0 0;
+	margin-bottom: 1em;
 	padding-bottom: 1em;
 	border-bottom: 1px solid #ccc;
 }
 
 .content h3 {
-	color: #009688;
-	font-size: 1em;
+	color: #9900CC;
+	font-size: 0.95em;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
@@ -107,36 +144,49 @@ h2 {
 .content .location {
 	color: #58585B;
 	display: inline;
-	font-size: 0.9em;
+	font-size: 0.8em;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 }
 
 .content h4 {
 	display: inline;
-	color: #58585B;
+	
 }
 
 .content .dates {
 	text-align: right;
-	text-transform: uppercase;
+	text-transform: none;
 	font-size: 90%;
 }
 
 .content p {
 	position: relative;
 	display: inline;
-	margin-top: 0px;
-	margin-bottom: 0px;
 }
 
-.content .skills {
+.lastcontent {
+	float: right;
+	position: relative;
+	width: 70%;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+}
+
+.lastcontent h3 {
+	display: inline;
+	color: #9900CC;
+	font-size: 0.95em;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.lastcontent p {
 	position: relative;
 	display: inline;
-	text-transform: none;
-	color: black;
 }
 
+/*
 .footer {
 	position: relative;
 	height: 50px;
@@ -147,7 +197,7 @@ h2 {
 	color: #808284;
 	text-transform: uppercase;
 	background-color: white;
-	border-top: 2px solid #009688;
+	border-top: 2px solid #7A00A3;
 }
 
 .footer a:link, a:visited {
@@ -156,7 +206,7 @@ h2 {
 }
 
 .footer a:hover{
-	color: #660033;
+	color: #C299EA;
 	font-weight: bold;
-	font-size: 1.1em;
 }
+*/
